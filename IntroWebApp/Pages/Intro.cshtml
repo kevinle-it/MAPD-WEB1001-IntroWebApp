@@ -5,22 +5,16 @@
     ViewData["Title"] = "Intro";
 }
 
-<!DOCTYPE html>
+<h3>Minh Tri Le - A00249054</h3>
+<form oninput="output.value=parseInt(numberInput1.value)+parseInt(numberInput2.value)">
+    <input type="number" name="numberInput1">
+    +<input type="number" name="numberInput2">
+    =<output name="output" for="numberInput1 numberInput2"></output>
+    <input type="submit" value="Submit">
+</form>
 
-<html>
-<head>
-    <title>@ViewData["Title"]</title>
-</head>
-<body>
-<section>
-    <h3>Minh Tri Le - A00249054</h3>
-    <form oninput="output.value=parseInt(numberInput1.value)+parseInt(numberInput2.value)">
-        <input type="number" name="numberInput1">
-        +<input type="number" name="numberInput2">
-        =<output name="output" for="numberInput1 numberInput2"></output>
-        <input type="submit" value="Submit">
-    </form>
-    <p>
+@section NewSection {
+     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid expedita natus nisi recusandae voluptate.
         Illo maiores molestias ratione veniam. Accusamus aliquam asperiores aut autem culpa debitis delectus dignissimos
         distinctio earum eligendi id illum ipsa ipsum itaque iusto laborum, magnam minima nesciunt nihil odio officia
@@ -30,6 +24,4 @@
         sequi similique suscipit veniam vero voluptatem? Amet aspernatur atque dolore itaque nesciunt praesentium
         quaerat suscipit.
     </p>
-</section>
-</body>
-</html>
+}
